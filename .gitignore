@@ -2,16 +2,6 @@
 __pycache__/
 *.pyc
 
-# Virtual env
-.venv/
-
-# Outputs (modelos, métricas, imágenes generadas)
-outputs/
-
-# IDE
-.vscode/
-.DS_Store
-Thumbs.db
 
 # =========================
 # DATA: subir CSVs, NO imágenes
