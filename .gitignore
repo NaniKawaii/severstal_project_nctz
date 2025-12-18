@@ -1,7 +1,26 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
+
+# Virtual env
+.venv/
+
+# Outputs (modelos, métricas, imágenes generadas)
 outputs/
-data/raw/
-*.pt
-*.pth
+
+# IDE
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# DATA: subir CSVs, NO imágenes
+# =========================
+
+# NO subir las carpetas de imágenes del dataset
+data/raw/severstal/train_images/
+data/raw/severstal/test_images/
+
+# (Opcional) si creas zips del dataset, tampoco
+*.zip
+*.7z
